@@ -1,0 +1,231 @@
+.carousel-root {
+    width: 75% !important;
+    margin: auto !important;
+    margin-top: 0% !important;
+  }
+  
+  .carousel .slide {
+    background: #fff !important;
+    color: black;
+    height: 100%;
+  }
+  
+  .carousel .slide img {
+    width: 80px !important;
+    border-radius: 50%;
+    left: 0px;
+  }
+  
+  .myCarousel {
+    
+    background: #fffefe;
+    position: relative;
+    margin-top: -2%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid #f2f3f4;
+    border-top-left-radius: 10px;
+    height: 282px;
+    border-radius: 10px;
+    
+  }
+  
+  .carousel .control-dots {
+    padding-left: 5px !important;
+    outline: 0;
+    bottom: 5% !important;
+  }
+  
+  .myCarousel h3 {
+    color: #222;
+    font-weight: 0;
+    letter-spacing: 0.2px;
+    margin-bottom: 4px;
+    font-weight: 1000;
+    /*text-transform: uppercase;*/
+    font-size: 17px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 5%;
+    padding-top: -5%;
+    
+    
+  }
+  
+  .myCarousel h4 {
+    /*text-transform: uppercase;*/
+    margin-top: 5%;
+    padding-top: -5%;
+    font-weight: 500;
+    color: #787878;
+    font-size: 14px;
+    float: left;
+    margin-left: 3%;
+    padding-left: 1%;
+    width: 20%;
+  }
+  
+  .myCarousel p {
+    /* display: flex; */
+    /* align-items: center; */
+    font-weight: 100 !important;
+    line-height: 29px !important;
+    color: #222;
+    font-size: 17px;
+    font-family: sans-serif;
+    max-height: 67px;
+    float: left;
+    margin-left: -3%;
+    
+  }  
+  
+  .myCarousel p:before {
+    
+    color: #aaa;
+    font-size: 26px;
+    font-family: monospace;
+    font-weight: 100;
+  }
+  
+  .myCarousel p:after {
+    
+    color: #aaa;
+    font-size: 26px;
+    font-family: monospace;
+    font-weight: 100;
+    line-height: 0;
+  }
+  
+  /*.carousel .control-dots .dot {
+    box-shadow: none !important;
+    background: #454545 !important;
+    outline: 0;
+  }*/
+  
+  /*.carousel.carousel-slider .control-arrow {
+    background: #000 !important;
+    height: 50px !important;
+    position: absolute;
+    top: 35% !important;
+  }*/
+  
+  .App {
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 934px) {
+    .carousel-root {
+      outline: 0;
+      width: 93% !important;
+      margin: auto !important;
+    }
+  
+    .carousel.carousel-slider .control-arrow {
+      display: none !important;
+    }
+    .myCarousel {
+      /*background:#fefefe;
+      margin-top: -9%;
+      width: 88%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 8%;
+      padding-bottom: 12.5%;
+      padding-left: 5%;
+      padding-right: 5%;
+      border: 1px solid #99999a;
+      height: 269px;*/
+
+      background: #fffefe;
+    position: relative;
+    margin-top: -3%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 7%;
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid #f2f3f4;
+    border-top-left-radius: 10px;
+    height: 400px;
+    border-radius: 10px;
+    }
+  
+    .carousel .slide img {
+      width: 24% !important;
+      border-radius: 50%;
+      white-space: inherit;
+      
+    }
+    
+  }
+
+
+  /*.myCarousel:before {
+    content: "“";
+
+  }
+
+  .myCarousel::after {
+    content: "”";
+
+  }*/
+
+  .myCarousel-i {
+    background-color: rgb(94, 176, 238);
+
+  }
+  .image1,.image2 {
+    float: left;
+
+
+  }
+
+
+  .image3 {
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin-top: -2%;
+    z-index: -1%;
+    top: 25%;
+  }
+
+  .image4 {
+    float: right;
+    
+   
+    
+    z-index: -1%;
+
+  }
+
+
+  .image5 {
+    float: left;
+    padding-top: -9%;
+    margin-top: -10%;
+    margin-left: -9%;
+    padding-left: 4%;
+   
+  }
+
+
+  .image6 {
+    float: right;
+    padding-top: 3%;
+    margin-top: 67%;
+    margin-right: -9%;
+    padding-right: 4%;
+    
+    
+   
+  }
+
+  

@@ -1,0 +1,61 @@
+@import url('https://fonts.cdnfonts.com/css/open-sans');
+.container-fluid{
+    background-image: url('../assets/circles.png');
+    background-repeat: no-repeat;
+}
+.card.tr{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    right: -8%;
+    bottom: -11%;
+}
+button{
+    width: 100%;
+}
+.text-dark{
+   font-weight: 600;
+}
+.img1{
+    width: 100%;
+    right: -56%;
+}
+.img2{
+
+    position: absolute;
+    width: 15%;
+    bottom: 7%;
+    left: 60%;
+    z-index: -1;
+}
+
+span{
+    top: 77%;
+    position: absolute;
+    left: 4%;
+}
+@media only screen and (max-width: 600px) {
+    *{
+        background-size: cover;
+    }
+    img.img1{
+        padding-top: 47%;
+    }
+
+    h1{
+        padding-top: 45%;
+    }
+   .text{
+    padding-top: 35%;
+   
+   }
+   .tr{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    right: -8%;
+    bottom: -11%;
+    left: 45%;
+}
+.copyright{
+    top: 93%;
+    padding-top: 34%;
+    font-weight: 300;
+}
+      }

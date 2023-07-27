@@ -1,0 +1,35 @@
+@import url('https://fonts.cdnfonts.com/css/open-sans');
+h1,p{
+    text-align: center;
+}
+
+
+/* App.css */ 
+
+/* Styles for title4 */
+.title4 {
+    /* Add your desired styles for title4 */
+    position: relative;
+    /* Adjust top, left, right, bottom values to position the element as you want */
+    top: -45px;
+    left: -100px;
+    z-index: -1;
+  }
+  /* Styles for title5 */
+  div.title5 {
+    /* Add your desired styles for title5 */
+    position: absolute;
+    /* Adjust top, left, right, bottom values to position the element as you want */
+    top: -77px;
+    right: -50px;
+    z-index: -1;
+    
+  }
+  /* Small devices (landscape phones, 576px and up) */
+  @media only screen and (max-width: 600px) {
+.title5.ttl{
+position:static;
+left: -100%;
+}
+
+      }

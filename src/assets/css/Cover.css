@@ -1,0 +1,20 @@
+@import url('https://fonts.cdnfonts.com/css/open-sans');
+.headers{
+  background-image: url('../images/exclusion5.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 100%;
+}
+.pattern{
+  width:100%;
+}
+.write{
+ position: relative;
+ left: -25%;
+ 
+}
+@media only screen and (max-width: 600px) {
+  .colone{
+  width: 10%;
+}
+    }
