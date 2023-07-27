@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/deploy-react/static/css/main.4e4bcacd.css",
+    "main.js": "/deploy-react/static/js/main.a41cc9f3.js",
+    "static/media/pattern.png": "/deploy-react/static/media/pattern.52ce6026795afbf25ae8.png",
+    "static/media/pic.png": "/deploy-react/static/media/pic.96d02fe668009879f51c.png",
+    "static/media/mot.png": "/deploy-react/static/media/mot.f3fcc1d808ba43b58535.png",
+    "static/media/yot.png": "/deploy-react/static/media/yot.03c934604fad8aeb8716.png",
+    "static/media/not.png": "/deploy-react/static/media/not.b96e52cbae9054d36228.png",
+    "static/media/exclusion5.png": "/deploy-react/static/media/exclusion5.042a21911bf8edfdbfeb.png",
+    "static/media/Section_Background.png": "/deploy-react/static/media/Section_Background.59267b0d97edfe6521a8.png",
+    "static/media/card3.png": "/deploy-react/static/media/card3.486c3339a3170d7efd07.png",
+    "static/media/card4.png": "/deploy-react/static/media/card4.b07b408b18c69b8c931a.png",
+    "static/media/card5.png": "/deploy-react/static/media/card5.0cbbd2bde570e6d9f501.png",
+    "static/media/card1.png": "/deploy-react/static/media/card1.1f028aa377cbd6c6fefa.png",
+    "index.html": "/deploy-react/index.html",
+    "main.4e4bcacd.css.map": "/deploy-react/static/css/main.4e4bcacd.css.map",
+    "main.a41cc9f3.js.map": "/deploy-react/static/js/main.a41cc9f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e4bcacd.css",
+    "static/js/main.a41cc9f3.js"
+  ]
+}
