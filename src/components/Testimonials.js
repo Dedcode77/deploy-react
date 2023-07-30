@@ -24,7 +24,7 @@ export default class Testimonials extends Component {
         <img src = {image3}  alt = "image3" className="image3"  />
             <img src = {image4}  alt = "image4" className="image4"  />
         
-        <h1>Testimonials</h1>
+        <h1 style={{textAlign:'center'}}>Testimonials</h1>
             <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
             eirmod tempor Lorem ipsum dolor sit amet, consetetur sadipscing elitr
@@ -41,7 +41,7 @@ export default class Testimonials extends Component {
               
             
               <img src = {image1} alt = "image1" className="image1"  />
-              <h3>Josh brollins</h3> <h4>mywebsite.com</h4>
+              <h3>Josh brollins</h3> 
             
               <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -58,7 +58,7 @@ export default class Testimonials extends Component {
         <img src = {image3}   alt = "image3" className="image3"  />
             <img src = {image4} alt = "image4" className="image4"  />
 
-        <h1>Testimonials</h1>
+        <h1 style={{textAlign:'center'}}>Testimonials</h1>
             <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
             eirmod tempor Lorem ipsum dolor sit amet, consetetur sadipscing elitr
@@ -73,7 +73,7 @@ export default class Testimonials extends Component {
             
             
             <img src = {image2} alt = "image2" className="image2" />
-            <h3>Dave inau</h3> <h4>yourwebsite.com</h4>
+            <h3>Dave inau</h3> 
             
             <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -91,7 +91,7 @@ export default class Testimonials extends Component {
 
             <img src = {image4}  alt = "image4" className="image4"  />
 
-        <h1>Testimonials</h1>
+        <h1 style={{textAlign:'center'}}>Testimonials</h1>
             <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
             eirmod tempor Lorem ipsum dolor sit amet, consetetur sadipscing elitr
@@ -108,7 +108,7 @@ export default class Testimonials extends Component {
 
             <img src = {image1} alt = "image1" className="image1" />
 
-            <h3>Josh brollins </h3> <h4>mywebsite.com</h4>
+            <h3>Josh brollins </h3> 
             
             
             <p>

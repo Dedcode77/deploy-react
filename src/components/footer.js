@@ -16,7 +16,7 @@ function ContainerFluidExample() {
   return (
     <footer>
       
-      <Container fluid>
+      <Container fluid className='foot'>
         
         <Row>
           <Col sm  xs={6}>
@@ -65,11 +65,11 @@ function ContainerFluidExample() {
      <img  src={Ponts}  className='img2 '/>
     
       </Col>
-      
+      <h6 className='copyright'> Created by Octet Design Studio</h6>
         </Row>
-        <span className='copyright'> Created by Octet Design Studio</span>
+        
     
-       
+    
       </Container>
      
     </footer>

@@ -16,7 +16,7 @@ function Accordion() {
     return(
        
         <div className="container">
-        <h2>Frequently Asked Question</h2>
+        <h2 className="font">Frequently Asked Question</h2>
         <p className='text'>Frequently Asked Questions
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, <br></br> sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet consetetur sadipscing elitr</p>
          

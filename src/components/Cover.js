@@ -57,7 +57,7 @@ function Cover() {
 <div className="card-section">
   <Row>
     <Col xs={5}>
-    <h1 style={{textAlign:'left',fontWeight:'bold'}}>Quality care for you and <br/>
+    <h1 style={{textAlign:'left',fontWeight:'bold'}} className='titre0'>Quality care for you and 
     The Once you loved</h1>
     <p style={{textAlign:'left'}} className='text2 pt-2'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br/>
      sed diam nonumy eirmod tempor Lorem ipsum dolor sit 

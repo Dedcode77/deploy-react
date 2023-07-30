@@ -54,5 +54,7 @@ h2{
     max-height: 99px;
     transform: all 0.2s cubic-bezier(0,1,0,1);
 }
-
+.font{
+  font-weight: 700;
+}
 

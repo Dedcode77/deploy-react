@@ -1,5 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/open-sans');
-body{
+.container.serve{
   
     background:url("../assets/Section_Background.png");
     background-repeat: no-repeat;
@@ -29,10 +29,11 @@ top: 10%;
   }
    
   .card.m-2{
-    left: 38%;
+    left: 16.5%;
     top: 23%;
+    width: 16rem;
   }
   .card{
-    left: 40%;
+    left: 17%;
   }
     }

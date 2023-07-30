@@ -28,8 +28,10 @@ h1,p{
   /* Small devices (landscape phones, 576px and up) */
   @media only screen and (max-width: 600px) {
 .title5.ttl{
-position:static;
+position:static;  
 left: -100%;
 }
-
+.card11{
+  left: 4%;
+}
       }

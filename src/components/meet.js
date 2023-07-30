@@ -12,7 +12,7 @@ import './meet.css';
 function Meet(){
     return(
         <div>
-        <h1 style={{fontWeight:'bold'}}>Meet Our Great Doctors</h1>
+        <h1 style={{fontWeight:'bold',textAlign:'center'}}  >Meet Our Great Doctors</h1>
         <div className="container" >
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy<br />
@@ -22,7 +22,7 @@ function Meet(){
   
           <Row>
             <Col xs={12} sm={6} md={4}>
-              <Card className=" card11 border-0" style={{ width: '100%' ,left:'10%'}}>
+              <Card className=" card11 border-0" style={{ width: '100%' }}>
                 <Card.Body>
                   <Card.Title>
                     <img src={Testimage} alt="not" />
@@ -38,7 +38,7 @@ function Meet(){
             </Col>
   
             <Col xs={12} sm={6} md={4}>
-              <Card className="card11 border-0" style={{ width: '100%',left:'10%' }}>
+              <Card className="card11 border-0" style={{ width: '100%'  }}>
                 <Card.Body>
                   <div className="image-column2">
                     <img src={Yotimage} alt="yot" />
@@ -52,7 +52,7 @@ function Meet(){
             </Col>
   
             <Col xs={12} sm={6} md={4}>
-              <Card className="card11 border-0" style={{ width: '100%',left:'10%' }}>
+              <Card className="card11 border-0" style={{ width: '100%' }}>
                 <Card.Body>
                   <div className="image-column3">
                     <img src={Motimage} alt="mot" />

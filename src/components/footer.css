@@ -1,5 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/open-sans');
-.container-fluid{
+.foot{
     background-image: url('../assets/circles.png');
     background-repeat: no-repeat;
 }
@@ -12,7 +12,7 @@ button{
     width: 100%;
 }
 .text-dark{
-   font-weight: 600;
+   font-weight: 700;
 }
 .img1{
     width: 100%;
@@ -27,11 +27,15 @@ button{
     z-index: -1;
 }
 
+h1{
+    text-align: left;
+}
 span{
     top: 77%;
     position: absolute;
     left: 4%;
 }
+
 @media only screen and (max-width: 600px) {
     *{
         background-size: cover;
@@ -49,13 +53,15 @@ span{
    }
    .tr{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    right: -8%;
     bottom: -11%;
-    left: 45%;
+    left: 22%;
 }
 .copyright{
-    top: 93%;
-    padding-top: 34%;
+    
+    top: 15%;
     font-weight: 300;
+}
+h1.text-dark{
+    text-align: center;
 }
       }
