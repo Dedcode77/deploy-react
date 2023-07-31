@@ -42,7 +42,7 @@ function Cover() {
       ut labore et dolore magna aliqua.
       </p>
       <p>
-      <Button variant="primary" style={{width:'20%', float:'left', marginLeft:'30%'}}>Book Now</Button>
+      <Button className='boutton' variant="primary" >Book Now</Button>
       </p>
 
        </Col>

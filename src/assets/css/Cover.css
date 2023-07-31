@@ -13,6 +13,11 @@
  left: -25%;
  
 }
+.boutton{
+  width:20%; 
+  float:left;
+   margin-left:30%;
+}
 @media only screen and (max-width: 600px) {
   .colone{
   width: 10%;
@@ -22,5 +27,10 @@
 }
 .titre0{
   width: 20rem;
+}
+.boutton{
+  width:30%; 
+  float:left;
+   margin-left:30%;
 }
     }
