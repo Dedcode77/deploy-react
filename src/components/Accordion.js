@@ -24,9 +24,9 @@ function Accordion() {
          <div className="accordion">
              {Question.map((item, i) => (
                     <div className="item">
-                      <div className="title" onClick={() =>toggle(i)}>
+                      <div className="title05" onClick={() =>toggle(i)}>
                        <h4>{item.question}</h4>
-                       <span>{selected === i ? '-' : '+'}</span>
+                       <div>{selected === i ? '-' : '+'}</div>
                      </div>
                      <div 
                      className={selected === i ? 'content show': 'content'}>{item.info}
